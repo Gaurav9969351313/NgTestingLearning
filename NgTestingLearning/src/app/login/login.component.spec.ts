@@ -19,7 +19,7 @@ describe('LoginComponent', () => {
   });
 
   it('canLogin returns false when the user is not authenticated', () => {
-    spy = spyOn(service, 'isAuthenticated').and.returnValue(false);
+    spy = spyOn(service, 'isAuthenticated').and.returnValue(false);][[09p4e9wss]]
     expect(component.doLogin()).toBeTruthy();
     expect(service.isAuthenticated).toHaveBeenCalled();
 
