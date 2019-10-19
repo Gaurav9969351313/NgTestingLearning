@@ -1,0 +1,45 @@
+npm install -g jasmine
+jasmine init
+if locally installed jasmine
+
+node node_modules/jasmine/bin/jasmine init
+
+............................................
+
+Unit Test: 
+    Functions Proper Naming 
+    Functions Single Responsibility functions
+
+Integration Test: (Components and Template)
+Test The Component with external dependencies (Database, File System, API endpoints)
+............................................
+
+Suites — describe(string, function) 
+Specs — it(string, function) // independant tests 
+
+Expectations — are assertions that evaluate to true or false.
+Basic syntax reads expect(actual).toBe(expected)
+
+Matchers — are predefined helpers for common assertions. Eg: toBe(expected), toEqual(expected)
+
+.............................................
+
+Jasmine offers four handlers to add our setup and teardown code: 
+
+beforeEach, afterEach executed for each spec and 
+beforeAll, afterAll executed once per suite.
+
+use beforeEach and afterEach to do changes before and after each spec
+.............................................
+
+
+
+
+
+
+
+
+
+
+
+
